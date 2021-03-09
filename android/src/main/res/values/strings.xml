@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="select_num" tools:ignore="MissingTranslation">已选&#12288;%d&#12288;张</string>
+  <string name="next_step" tools:ignore="MissingTranslation">下一步</string>
+  <string name="number_limit" tools:ignore="MissingTranslation">最多只能选择%d张图片</string>
+  <string name="format_invalidate" tools:ignore="MissingTranslation">暂不支持此视频格式</string>
+  <string name="duration_invalidate" tools:ignore="MissingTranslation">请选择时长大于5秒的视频</string>
+</resources>

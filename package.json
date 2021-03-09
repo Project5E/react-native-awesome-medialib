@@ -1,0 +1,142 @@
+{
+  "name": "react-native-awesome-medialib",
+  "version": "0.0.1",
+  "description": "A useful media selector module base on native component",
+  "main": "lib/commonjs/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index.tsx",
+  "source": "src/index.tsx",
+  "bundledDependencies": [
+    "@types/react-native-video", 
+    "react-native-awesome-navigation", 
+    "react-native-fast-image", 
+    "react-native-gesture-handler", 
+    "react-native-iphone-x-helper", 
+    "react-native-root-toast",
+    "react-native-video"
+  ],
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "react-native-awesome-medialib.podspec",
+    "!lib/typescript/example",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf lib && tsc -p .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:staged": "lint-staged",
+    "lint:husky": "eslint --fix --ext .jsx,.js,.tsx,.ts .",
+    "prepare": "bob build",
+    "release": "release-it",
+    "example": "yarn --cwd example",
+    "pods": "cd example && pod-install --quiet",
+    "bootstrap": "yarn example && yarn"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "picture-selector",
+    "media-selector",
+    "gallerry"
+  ],
+  "repository": "https://github.com/Project5E/react-native-awesome-medialib",
+  "author": "Project5E",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Project5E/react-native-awesome-medialib/issues"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@release-it/conventional-changelog": "^2.0.0",
+    "@types/jest": "^26.0.8",
+    "@types/react-native": "0.63.4",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint": "^7.6.0",
+    "eslint-config-5e": "^0.0.10",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.5",
+    "jest": "^26.2.2",
+    "lint-staged": "^10.2.11",
+    "pod-install": "^0.1.0",
+    "prettier": "^2.0.5",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-builder-bob": "^0.17.1",
+    "release-it": "^14.2.2",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.4",
+    "react-native-awesome-navigation": ">=0.1.1-beta"
+  },
+  "jest": {
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/node_modules",
+      "<rootDir>/lib/"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx}": "yarn lint:husky"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular"
+      }
+    }
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@types/react-native-video": "^5.0.1",
+    "react-native-awesome-navigation": "^0.1.1-beta",
+    "react-native-fast-image": "^8.3.4",
+    "react-native-gesture-handler": "^1.6.0",
+    "react-native-iphone-x-helper": "^1.3.0",
+    "react-native-root-toast": "^3.2.0",
+    "react-native-video": "^4.4.5"
+  }
+}

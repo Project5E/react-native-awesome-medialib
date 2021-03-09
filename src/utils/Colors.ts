@@ -1,0 +1,42 @@
+export const backgroundColor = '#F9F9F9'
+
+export const gray66 = '#666666'
+export const gray88 = '#888888'
+export const gray99 = '#999999'
+export const grayAA = '#AAAAAA'
+export const grayA2 = '#A2A2A2'
+export const grayD8 = '#D8D8D8'
+export const grayEE = '#EEEEEE'
+export const grayCC = '#CCCCCC'
+export const grayDD = '#DDDDDD'
+export const grayF5 = '#F5F5F5'
+export const gray73 = '#737373'
+export const grayF7 = '#F7F7F7'
+export const grayE6 = '#E6E6E6'
+export const grayFA = '#FAFAFA'
+export const grayB2 = '#B2B2B2'
+
+export const lightBlue = '#54C4FF'
+
+export const yellow = '#FFE500'
+export const yellowAlert = '#FFDE3C'
+export const yellowButton = '#FFEF42'
+export const backgroundYellow = '#FFF6CC'
+
+export const primaryPink = '#FF84A9'
+export const disablePink = '#FFE0E9'
+export const backgroundPink = '#FFF4F7'
+
+export const black = 'black'
+export const black111 = '#111111'
+export const black333 = '#333333'
+export const black444 = '#444444'
+export const black666 = '#666666'
+export const black1A = '#1A1A1A'
+export const highlightYellow = '#FFC000'
+
+export const likeNumber = '#FFAFAF'
+export const lightGreen = '#F0F7FA'
+
+export const splashBackground = '#fdfff7'
+export const white = 'white'

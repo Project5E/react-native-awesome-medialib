@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/photo_container"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <ImageView
+    android:id="@+id/iv_camera"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@null"
+    android:src="@drawable/picture_camera_item_placeholder"
+    android:visibility="gone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <com.makeramen.roundedimageview.RoundedImageView
+    android:id="@+id/iv_item"
+    android:layout_width="@dimen/dp_112"
+    android:layout_height="@dimen/dp_112"
+    android:scaleType="centerCrop"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:riv_corner_radius="@dimen/dp_3" />
+
+  <TextView
+    android:id="@+id/tv_duration_video_only"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/dp_8"
+    android:layout_marginBottom="@dimen/dp_8"
+    android:shadowColor="@color/color_4d000000"
+    android:shadowDx="0"
+    android:shadowDy="1"
+    android:shadowRadius="1"
+    android:textColor="@android:color/white"
+    android:textSize="12sp"
+    android:visibility="gone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+  <View
+    android:id="@+id/v_mask"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_a6f7f7f7"
+    android:visibility="gone" />
+
+  <ImageButton
+    android:id="@+id/iv_select"
+    android:layout_width="@dimen/dp_41"
+    android:layout_height="@dimen/dp_41"
+    android:background="@android:color/transparent"
+    android:contentDescription="@null"
+    android:gravity="center"
+    android:padding="@dimen/dp_6"
+    android:src="@drawable/ic_state_uncheck"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+    android:id="@+id/tv_selected_num"
+    android:layout_width="@dimen/dp_41"
+    android:layout_height="@dimen/dp_41"
+    android:gravity="center"
+    android:padding="@dimen/dp_6"
+    android:text="@null"
+    android:textColor="@color/color_1a1a1a"
+    android:textSize="@dimen/dp_12"
+    android:textStyle="bold"
+    android:visibility="gone"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="SpUsage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

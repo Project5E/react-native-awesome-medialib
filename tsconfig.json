@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "react-native-awesome-medialib": ["./src/index", "./lib/commonjs/index.js", "./lib/typescript/index.d.ts"]
+    },
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-native",
+    "lib": ["esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "strict": true,
+    "target": "esnext",
+    "outDir": "lib/commonjs",
+    "declaration": true,
+    "declarationDir": "lib/typescript"
+  },
+  "exclude": ["node_modules", "example", "src/__tests__"],
+  "include": ["src"]
+}

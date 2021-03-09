@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size
+                android:width="@dimen/dp_62"
+                android:height="@dimen/dp_62"/>
+            <corners android:radius="@dimen/dp_3" />
+            <solid android:color="@color/color_999999"/>
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/pic_placeholder"/>
+    </item>
+</layer-list>
