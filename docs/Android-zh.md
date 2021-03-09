@@ -1,4 +1,4 @@
-# 开始([English](https://github.com/Project5E/react-native-awesome-medialib/doc/Android.md))
+# 开始([English](Android.md))
 <br/>
 
 ## 使用
@@ -46,7 +46,7 @@
 
 
 ### 3. 可选项: 以react native的方式获取图片选择器的结果
-  [详见README 使用/第3点](https://github.com/Project5E/react-native-awesome-medialib/README.md)
+  [详见README 使用/第3点](README-zh.md)
 <br/>
 
 ## End

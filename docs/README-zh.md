@@ -1,4 +1,4 @@
-# 开始([English](https://github.com/Project5E/react-native-awesome-medialib/README.md))
+# 开始([English](../README.md))
 <br/>
 
 react-native-awesome-medialib 是一款基于封装原生组件的实用媒体选择器库。它以开箱即用的方式提供, 包含图片选择、照片拍摄、视频选择、预览等页面. 我们强烈推荐在实用此库的同时，以 reac-native-awesome-navigation 作为其路由导航组件。react-native-awesome-medialib内部页面跳转采用的正是此路由导航组件。
@@ -47,7 +47,7 @@ dependency {
 ```
 <br/>
 
-### 3. 在工程的 Application 文件中，手动的添加 ReactPackage 到 PackageList:
+### 3. (React Native 0.59 及以下) 在工程的 Application 文件中，手动的添加 ReactPackage 到 PackageList:
 ```kotlin
 class MainApplication : Application(), ReactApplication {
     private val mReactNativeHost: ReactNativeHost = object : ReactNativeHost(this) {
@@ -72,9 +72,9 @@ react-native link react-native-awesome-medialib
 <br/>
 
 ## 文档
-- [Android](https://github.com/Project5E/react-native-awesome-medialib/doc/Android.md)
-<br/>
-- [iOS](https://github.com/Project5E/react-native-awesome-medialib/doc/iOS.md)
+- [Android](Android-zh.md)
+
+- [iOS](iOS.md)
 <br/>
 
 ## 使用方法

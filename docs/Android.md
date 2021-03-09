@@ -1,4 +1,4 @@
-# Get Start([中文](https://github.com/Project5E/react-native-awesome-medialib/doc/Android-zh.md))
+# Get Start([中文](Android-zh.md))
 <br/>
 
 ## Usage
@@ -46,6 +46,6 @@ U can observe a signal in ur 'MediaLib' container(maybe a activity or a fragment
 <br/>
 
 ### 3. Optional: Get results in react-native way:
-  [for more detail:README Usage Point.3]:(https://github.com/Project5E/react-native-awesome-medialib/README.md)
+  [for more detail:README Usage Point.3](../README.md)
 
 ## End

@@ -1,4 +1,4 @@
-# Get Started([中文](https://github.com/Project5E/react-native-awesome-medialib/doc/README-zh.md))
+# Get Started([中文](docs/README-zh.md))
 
 A useful media selector module base on native component. It will offer a meida selector in batteries-included way, including picture selection, photo shooting, video selection, album switch, preview and so on. We recommend strongly that u should install reac-native-awesome-navigation as navigation component in project when using this lib.
 
@@ -43,7 +43,7 @@ dependency {
 ```
 <br/>
 
-### 3. maunully add ReactPackage to PackageList in Application:
+### 3. (React Native 0.59 and lower) maunully add ReactPackage to PackageList in Application:
 ```kotlin
 class MainApplication : Application(), ReactApplication {
     private val mReactNativeHost: ReactNativeHost = object : ReactNativeHost(this) {
@@ -70,9 +70,9 @@ after which you should be able to use this library on iOS.
 <br/>
 
 ## Documentation
-- [Android](https://github.com/Project5E/react-native-awesome-medialib/doc/Android.md)
-<br/>
-- [iOS](https://github.com/Project5E/react-native-awesome-medialib/doc/iOS.md)
+- [Android](docs/Android.md)
+
+- [iOS](docs/iOS.md)
 <br/>
 
 ## Usage
