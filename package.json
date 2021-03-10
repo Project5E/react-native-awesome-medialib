@@ -1,6 +1,6 @@
 {
   "name": "react-native-awesome-medialib",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A useful media selector module base on native component",
   "main": "lib/commonjs/index.js",
   "types": "lib/typescript/index.d.ts",
